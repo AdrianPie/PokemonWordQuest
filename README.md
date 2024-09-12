@@ -15,3 +15,4 @@ Jetpack Compose: Modern UI development with a declarative approach for building 
 Coil: Image loading library for handling Pokémon images efficiently.
 API Integration:
 Using PokéAPI to dynamically retrieve Pokémon data for each battle, ensuring variety and unpredictability in gameplay.
+![fight](![screenshot.png](app%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fscreenshot.png))
