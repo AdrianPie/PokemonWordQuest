@@ -44,6 +44,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.Alignment.Companion.Center
 import androidx.compose.ui.Alignment.Companion.CenterHorizontally
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -699,12 +700,12 @@ fun EnemyTurn(
                                 } else {
                                     Color.White
                                 }
-                            )
+                            ),
+                            contentAlignment = Center
+
                         ) {
                             Text(
                                 text = viewModel.getThreeAnswerList()[it],
-                                textAlign = TextAlign.Center,
-                                modifier = Modifier.fillMaxSize()
                             )
                         }
                     }
