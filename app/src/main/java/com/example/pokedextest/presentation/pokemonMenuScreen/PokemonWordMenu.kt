@@ -1,4 +1,4 @@
-package com.example.pokedextest.composable
+package com.example.pokedextest.presentation.pokemonMenuScreen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -65,7 +65,7 @@ fun PokemonWordMenu(
                     "pokemon_fight_screen"
                 )},
                 modifier = Modifier
-                    .align(Alignment.CenterHorizontally)
+                    .align(CenterHorizontally)
                     .fillMaxWidth()
                     .padding(horizontal = 30.dp),
                 text = "Fight"
@@ -76,7 +76,7 @@ fun PokemonWordMenu(
                     "player_profile_screen"
                 )},
                 modifier = Modifier
-                    .align(Alignment.CenterHorizontally)
+                    .align(CenterHorizontally)
                     .fillMaxWidth()
                     .padding(horizontal = 30.dp),
                 text = "Profile"
@@ -87,7 +87,7 @@ fun PokemonWordMenu(
                     "shop_screen"
                 )},
                 modifier = Modifier
-                    .align(Alignment.CenterHorizontally)
+                    .align(CenterHorizontally)
                     .fillMaxWidth()
                     .padding(horizontal = 30.dp),
                 text = "Shop"
@@ -98,7 +98,7 @@ fun PokemonWordMenu(
                     "pokemon_words_screen"
                 )
             },modifier = Modifier
-                .align(Alignment.CenterHorizontally)
+                .align(CenterHorizontally)
                 .fillMaxWidth()
                 .padding(horizontal = 30.dp),
                 text = "Words"

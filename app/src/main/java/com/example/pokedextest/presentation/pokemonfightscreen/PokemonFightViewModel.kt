@@ -1,4 +1,4 @@
-package com.example.pokedextest.pokemonfightscreen
+package com.example.pokedextest.presentation.pokemonfightscreen
 
 import android.content.Context
 import android.util.Log

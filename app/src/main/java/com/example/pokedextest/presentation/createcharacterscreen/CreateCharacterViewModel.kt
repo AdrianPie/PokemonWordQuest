@@ -1,4 +1,4 @@
-package com.example.pokedextest.createcharacterscreen
+package com.example.pokedextest.presentation.createcharacterscreen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

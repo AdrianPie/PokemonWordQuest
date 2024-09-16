@@ -1,4 +1,4 @@
-package com.example.pokedextest.welcomescreen
+package com.example.pokedextest.presentation.welcomescreen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

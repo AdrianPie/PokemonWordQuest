@@ -1,4 +1,4 @@
-package com.example.pokedextest.shopscreen
+package com.example.pokedextest.presentation.shopscreen
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

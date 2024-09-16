@@ -2,7 +2,7 @@
     ExperimentalFoundationApi::class
 )
 
-package com.example.pokedextest.pokemonwordscreen
+package com.example.pokedextest.presentation.pokemonwordscreen
 
 import android.util.Log
 import android.widget.Toast

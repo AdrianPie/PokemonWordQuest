@@ -1,4 +1,4 @@
-package com.example.pokedextest.shopscreen
+package com.example.pokedextest.presentation.shopscreen
 
 import android.widget.Toast
 import androidx.compose.animation.core.LinearEasing

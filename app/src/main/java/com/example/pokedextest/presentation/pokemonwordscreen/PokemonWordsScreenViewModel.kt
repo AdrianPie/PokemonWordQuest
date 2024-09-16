@@ -1,4 +1,4 @@
-package com.example.pokedextest.pokemonwordscreen
+package com.example.pokedextest.presentation.pokemonwordscreen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

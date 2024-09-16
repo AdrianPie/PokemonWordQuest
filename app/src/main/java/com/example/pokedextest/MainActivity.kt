@@ -8,15 +8,15 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.pokedextest.composable.PokemonWordMenu
-import com.example.pokedextest.createcharacterscreen.CreateCharacterScreen
-import com.example.pokedextest.pokemonfightscreen.PokemonFightScreen
-import com.example.pokedextest.pokemonwordscreen.PokemonWordsScreen
-import com.example.pokedextest.profilscreen.PlayerProfileScreen
-import com.example.pokedextest.shopscreen.ShopScreen
-import com.example.pokedextest.splashscreen.SplashViewModel
+import com.example.pokedextest.presentation.pokemonMenuScreen.PokemonWordMenu
+import com.example.pokedextest.presentation.createcharacterscreen.CreateCharacterScreen
+import com.example.pokedextest.presentation.pokemonfightscreen.PokemonFightScreen
+import com.example.pokedextest.presentation.pokemonwordscreen.PokemonWordsScreen
+import com.example.pokedextest.presentation.profilscreen.PlayerProfileScreen
+import com.example.pokedextest.presentation.shopscreen.ShopScreen
+import com.example.pokedextest.presentation.splashscreen.SplashViewModel
 import com.example.pokedextest.ui.theme.PokedexTestTheme
-import com.example.pokedextest.welcomescreen.WelcomeScreen
+import com.example.pokedextest.presentation.welcomescreen.WelcomeScreen
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

@@ -1,4 +1,4 @@
-package com.example.pokedextest.welcomescreen
+package com.example.pokedextest.presentation.welcomescreen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi

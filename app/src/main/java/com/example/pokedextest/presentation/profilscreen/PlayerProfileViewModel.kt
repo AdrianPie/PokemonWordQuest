@@ -1,4 +1,4 @@
-package com.example.pokedextest.profilscreen
+package com.example.pokedextest.presentation.profilscreen
 
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.ViewModel

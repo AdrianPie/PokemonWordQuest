@@ -1,4 +1,4 @@
-package com.example.pokedextest.profilscreen
+package com.example.pokedextest.presentation.profilscreen
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween

@@ -1,4 +1,4 @@
-package com.example.pokedextest.pokedex
+package com.example.pokedextest.presentation.pokemonMenuScreen
 
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
@@ -19,7 +19,7 @@ import java.util.Locale
 import javax.inject.Inject
 
 @HiltViewModel
-class PokedexScreenViewModel @Inject constructor(
+class PokemonMenuViewModel @Inject constructor(
     private val repository: PokemonRepository
 ): ViewModel() {
     private var currentPage = 0
@@ -32,7 +32,6 @@ class PokedexScreenViewModel @Inject constructor(
     init {
         loadPokemonPaginated()
     }
-
     fun loadPokemonPaginated() {
         viewModelScope.launch {
             isLoading.value = true
@@ -75,10 +74,10 @@ class PokedexScreenViewModel @Inject constructor(
     fun calcDominantColor(drawable: Drawable, onFinish: (Color) -> Unit) {
         val bmp = (drawable as BitmapDrawable).bitmap.copy(Bitmap.Config.ARGB_8888, true)
 
-        Palette.from(bmp).generate { palette ->
-            palette?.dominantSwatch?.rgb?.let { colorValue ->
-                onFinish(Color(colorValue))
-            }
+    Palette.from(bmp).generate { palette ->
+        palette?.dominantSwatch?.rgb?.let { colorValue ->
+            onFinish(Color(colorValue))
         }
+    }
     }
 }

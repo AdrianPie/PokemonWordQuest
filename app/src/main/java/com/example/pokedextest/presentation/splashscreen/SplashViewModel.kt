@@ -1,4 +1,4 @@
-package com.example.pokedextest.splashscreen
+package com.example.pokedextest.presentation.splashscreen
 
 import android.util.Log
 import androidx.compose.runtime.MutableState

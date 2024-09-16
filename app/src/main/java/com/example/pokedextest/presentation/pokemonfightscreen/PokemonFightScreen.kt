@@ -1,4 +1,4 @@
-package com.example.pokedextest.pokemonfightscreen
+package com.example.pokedextest.presentation.pokemonfightscreen
 
 import android.widget.Toast
 import androidx.compose.animation.AnimatedVisibility
@@ -73,10 +73,10 @@ import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.rememberLottieComposition
 import com.example.pokedextest.R
-import com.example.pokedextest.composable.TonalButton
 import com.example.pokedextest.data.models.Player
 import com.example.pokedextest.data.models.Word
 import com.example.pokedextest.data.remote.responses.Pokemon
+import com.example.pokedextest.presentation.pokemonMenuScreen.TonalButton
 import kotlinx.coroutines.delay
 
 @Composable

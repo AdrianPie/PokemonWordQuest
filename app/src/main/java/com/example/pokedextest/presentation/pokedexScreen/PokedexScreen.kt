@@ -1,4 +1,4 @@
-package com.example.pokedextest.pokedex
+package com.example.pokedextest.presentation.pokedexScreen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -48,7 +48,7 @@ import coil.compose.AsyncImagePainter
 import coil.compose.SubcomposeAsyncImage
 import coil.compose.SubcomposeAsyncImageContent
 import coil.request.ImageRequest
-import com.example.pokedextest.composable.PokemonMenuViewModel
+import com.example.pokedextest.presentation.pokemonMenuScreen.PokemonMenuViewModel
 import com.example.pokedextest.data.models.PokedexListEntry
 
 @Composable

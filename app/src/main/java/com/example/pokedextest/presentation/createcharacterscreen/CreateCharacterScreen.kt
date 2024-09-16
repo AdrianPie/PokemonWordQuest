@@ -1,4 +1,4 @@
-package com.example.pokedextest.createcharacterscreen
+package com.example.pokedextest.presentation.createcharacterscreen
 
 import android.widget.Toast
 import androidx.compose.foundation.Image
